@@ -1,0 +1,195 @@
+html {
+	background-color: black;
+}
+
+body {
+	font-family: 'Space Mono', monospace;
+	font-size: 18px;
+	font-weight: 700;
+	color: white;
+
+}
+
+main {
+	font-family: 'Space Mono', monospace;
+	font-size: 16px;
+	font-weight: 400;	
+	margin: 0.5px;
+	padding: 0.5em;
+	color: white;
+	line-height: 1.2;
+}
+h1 {
+	text-align: center;
+}
+
+details {
+	max-width: 35em;
+}
+
+summary {
+	outline: none;
+}
+
+summary div{
+	cursor: pointer;
+	font-size: 18px;
+	color: white;
+	font-weight: 200;
+	transition: all 0.25s;
+	filter: blur(1.5px);
+	display: inline;
+}
+
+summary:hover div, details[open] div {
+	color: #73f6ff;
+	font-size: 1.5em;
+	font-weight: 800;
+	transform: translate(2px);
+	filter: blur(0);
+	text-decoration: underline; 
+}
+
+body > div {
+	border: 2px solid;
+	border-radius: 1em;
+	padding: 2em 8.7em;
+	background-color: grey;
+	color: white;
+	position: fixed;
+	left: 74%;
+	top:40%;
+	z-index: 2;
+	transition: all 0.25s;
+}
+
+body > div:hover {
+	background-image: url(image/IMG_0411.jpg);
+	background-size: 270px;
+    background-position: left;
+   }
+
+.legend1 {
+	color: #73f6ff;
+	font-weight: 800;
+	text-decoration: underline;
+	font-style: normal;
+	position: fixed;
+	left: 75%;
+	top:40%;
+}
+
+.legend2 {
+	line-height: 0px;
+	position: fixed;
+	left: 75%;
+	top: 44%;
+}
+ 
+ p {
+ 	font-size: 17px;
+	font-weight: 400;
+	font-style: oblique;
+ }
+
+main > div {
+	background: black;
+}
+
+main > div:before {
+    content: '';
+    top: 0;
+    left: 50%;
+    height: 20em;
+    width: 2px;
+    background: white;
+    position: absolute;
+    z-index: -1;
+}
+
+main > div:after {
+	content: '';
+	position: absolute;
+	height: 2px;
+	width: 50%;
+	left: 50%;
+	top: 20em;
+	background: white;
+}
+
+.question1 {
+ 	position: absolute;
+ 	left: 49%;
+ 	top: 10em;
+ }
+ .question1:after{
+ 	left: -60%;
+ 	width:110% 																																
+ }
+
+ .question2 {
+ 	position: absolute;
+ 	left: 7%;
+ 	top: 30em;
+ }
+.question2:before {
+	left: 25%;
+}
+.question2:after {
+	left: 25%;
+	width: 15%;
+}
+ .question3 {
+ 	position: absolute;
+ 	left: 21%;
+ 	top: 50em;
+ }
+ .question3:after {
+ 	width: 100%;
+ }
+
+ .question4 {
+ 	position: absolute;
+ 	left: 70%;
+ 	top: 70em;
+ }
+.question4:after {
+	left: -45%;
+	width: 95%;
+}
+ .question5 {
+ 	position: absolute;
+ 	left: 42%;
+ 	top: 90em;
+ }
+ .question5:after {
+ 	display: none;
+ }
+
+ .question6 {
+ 	position: absolute;
+ 	left: 35%;
+ 	top: 110em;
+ }
+.question6:before {
+	left: 25%;
+}
+.question6:after {
+	left: 25%;
+	width: 75%;
+}
+ .question7 {
+ 	position: absolute;
+ 	left: 56%;
+ 	top: 130em;
+ 	margin-bottom: 5em;
+ }
+
+
+.question7:before {
+    display: none;
+}
+.question7:after {
+	display: none;
+}
+
